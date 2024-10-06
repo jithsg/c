@@ -43,12 +43,12 @@ int main(){
     // printf("%zu\n", sizeof(char));
     // printf("%zu\n", sizeof(double));
 
-    int i = 0;
+    // int i = 0;
 
-    while (i < 10){
-        printf("%d\n", i);
-        i++;
-    }
+    // while (i < 10){
+    //     printf("%d\n", i);
+    //     i++;
+    // }
 
 
 }

@@ -41,6 +41,7 @@ int main(){
     printf("%zu\n", sizeof(long long));
     printf("%zu\n", sizeof(float));
     printf("%zu\n", sizeof(char));
+    printf("%zu\n", sizeof(double));
 
 
 }

@@ -8,12 +8,18 @@ int main(){
     // printf("%s i=%d f=%d\n", s, i;, i);
     int x =0;
     int y = 1;
+    x = ++y;
+
+    printf("x: %d, y: %d\n", x, y);
+
+    x = y++;
+    printf("x: %d, y: %d\n", x, y);
     // y>x?printf("y is greater than x"):printf("y is not greater than x");
     // bool b = true;
     // if (b){
     //     printf("b is true");
     // }
-    int z=4;
-    printf("%s\n", z%2==0?"even":"odd");
+    // int z=4;
+    // printf("%s\n", z%2==0?"even":"odd");
 
 }

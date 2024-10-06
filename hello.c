@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+ int plusone(int a);
+
 int main(){
     // int i =2;
     // float f=3.14;
@@ -49,6 +51,19 @@ int main(){
     //     printf("%d\n", i);
     //     i++;
     // }
+   
+  
+
+    int y=5, z;
+
+    z=plusone(y);
+    printf("%d\n", z);
+
+
 
 
 }
+
+    int plusone(int a){
+        return ++a;
+    }

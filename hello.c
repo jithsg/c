@@ -34,14 +34,21 @@ int main(){
     
     // }
 
-    int a = 999;
-    printf("%zu\n", sizeof(a));
-    printf("%zu\n", sizeof(int));
-    printf("%zu\n", sizeof(long));
-    printf("%zu\n", sizeof(long long));
-    printf("%zu\n", sizeof(float));
-    printf("%zu\n", sizeof(char));
-    printf("%zu\n", sizeof(double));
+    // int a = 999;
+    // printf("%zu\n", sizeof(a));
+    // printf("%zu\n", sizeof(int));
+    // printf("%zu\n", sizeof(long));
+    // printf("%zu\n", sizeof(long long));
+    // printf("%zu\n", sizeof(float));
+    // printf("%zu\n", sizeof(char));
+    // printf("%zu\n", sizeof(double));
+
+    int i = 0;
+
+    while (i < 10){
+        printf("%d\n", i);
+        i++;
+    }
 
 
 }

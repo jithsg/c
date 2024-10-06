@@ -28,10 +28,19 @@ int main(){
 
     
 
-    for (int i=0,j=0; i<10; i++)
-    {
-        printf("i is :%d\n, j is %d\n", i,j);
+    // for (int i=0,j=0; i<10; i++)
+    // {
+    //     printf("i is :%d\n, j is %d\n", i,j);
     
-    }
+    // }
+
+    int a = 999;
+    printf("%zu\n", sizeof(a));
+    printf("%zu\n", sizeof(int));
+    printf("%zu\n", sizeof(long));
+    printf("%zu\n", sizeof(long long));
+    printf("%zu\n", sizeof(float));
+    printf("%zu\n", sizeof(char));
+
 
 }
